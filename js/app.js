@@ -1,5 +1,5 @@
-let username ="Hoodoo";
-let user_age = 33;
+let username = `Hoodoo`;
+let user_age = `thirty three`;
 let is_member = true ;
 
 if(username === "admin" || user_age >= 30 && is_member === true){
@@ -7,3 +7,5 @@ if(username === "admin" || user_age >= 30 && is_member === true){
 }else{
     console.log("Welcome");
 }
+
+console.log (`Hello ${username}. You are ${user_age}`);
