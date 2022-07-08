@@ -16,3 +16,8 @@ let current_volume = 12;
 
 console.log(max_volume / current_volume);
 console.log(max_volume / current_volume * 100);
+
+
+let users  = [`Colleen`,`Mathew`,`Lola`,`Macy`,`Ripley` ];
+let user_ages = [`33`,`35`,`10`,`5`,`3`];
+
