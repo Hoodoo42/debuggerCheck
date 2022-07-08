@@ -9,3 +9,10 @@ if(username === "admin" || user_age >= 30 && is_member === true){
 }
 
 console.log (`Hello ${username}. You are ${user_age}`);
+
+
+let max_volume = 42;
+let current_volume = 12;
+
+console.log(max_volume / current_volume);
+console.log(max_volume / current_volume * 100);
